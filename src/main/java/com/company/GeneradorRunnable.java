@@ -15,7 +15,7 @@ public class GeneradorRunnable implements Runnable{
     protected int pedidoId;
 
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace_sec";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace";
     static final String USER = "root";
     static final String PASS = "malpica28";
 
