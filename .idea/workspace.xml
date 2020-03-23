@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf05a6d-679f-4dd8-b463-d4f6f894023e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584823373100</updated>
       <workItem from="1584823379400" duration="691000" />
+      <workItem from="1584975712918" duration="1348000" />
     </task>
     <servers />
   </component>
@@ -73,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -88,6 +101,10 @@
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state x="697" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1584823437316" />
+    <state x="325" y="36" key="CommitChangelistDialog2" timestamp="1584976549561">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="325" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1584976549561" />
     <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1584824097932">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
@@ -104,5 +121,9 @@
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1584824097932" />
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1584975728182">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1584975728182" />
   </component>
 </project>

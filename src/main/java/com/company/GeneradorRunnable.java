@@ -30,19 +30,9 @@ public class GeneradorRunnable implements Runnable{
 
     @Override
     public void run() {
-        int closeConnection = -1;
         Pedido pedido = buscaEnBBDD();
-
         SendEmail(pedido);
     }
-
-    /*static void copy(InputStream in, OutputStream out) throws IOException {
-        byte[] buf = new byte[512];
-        int len = 0;
-        while ((len = in.read(buf)) != -1) {
-            out.write(buf, 0, len);
-        }
-    }*/
 
     private Pedido buscaEnBBDD(){
         Connection conn = null;
