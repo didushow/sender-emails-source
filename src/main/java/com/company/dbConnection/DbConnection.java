@@ -23,7 +23,7 @@ public class DbConnection {
         Pedido pedido = new Pedido();
 
         try{
-            Class.forName(JDBC_DRIVER);
+            //Class.forName(JDBC_DRIVER);
 
             System.out.println("Connecting to a selected database...");
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
@@ -75,7 +75,6 @@ public class DbConnection {
                 se.printStackTrace();
             }
         }
-
         return pedido;
     }
 }

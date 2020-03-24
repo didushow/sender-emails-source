@@ -1,23 +1,18 @@
 package com.company;
 
+import com.company.dbConnection.DbConnection;
 import pedido.Pedido;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.net.Socket;
-import java.sql.*;
 import java.util.Properties;
 
 public class GeneradorRunnable implements Runnable{
 
     protected Socket clientSocket;
     protected int pedidoId;
-
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace";
-    static final String USER = "root";
-    static final String PASS = "malpica28";
 
     public GeneradorRunnable(Socket clientSocket, int pedidoId){
         this.clientSocket = clientSocket;
@@ -30,72 +25,9 @@ public class GeneradorRunnable implements Runnable{
 
     @Override
     public void run() {
-        Pedido pedido = buscaEnBBDD();
+        DbConnection dbConnection = new DbConnection();
+        Pedido pedido = dbConnection.FindInDB(pedidoId);
         SendEmail(pedido);
-    }
-
-    private Pedido buscaEnBBDD(){
-        Connection conn = null;
-        Statement stmt = null;
-        int idProd = -1;
-        int idDestinatario = -1;
-        Pedido pedido = new Pedido();
-        try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
-
-            System.out.println("Connecting to a selected database...");
-            conn = DriverManager.getConnection(DB_URL, USER, PASS);
-            System.out.println("Connected database successfully...");
-
-            System.out.println("Creating statement for id " + this.pedidoId);
-            stmt = conn.createStatement();
-
-            String sql = "SELECT * FROM pedido WHERE id="+this.pedidoId;
-            ResultSet rs = stmt.executeQuery(sql);
-            while (rs.next()) {
-                pedido.setId(rs.getLong("id"));
-                pedido.setPrecio(rs.getDouble("precio"));
-                pedido.setDireccionDestino(rs.getString("direccion_destino"));
-                pedido.setFecha(rs.getDate("fecha"));
-
-                idProd = rs.getInt("producto_id");
-                idDestinatario = rs.getInt("destinatario_id");
-            }
-            rs.close();
-
-            sql ="SELECT * FROM producto WHERE id=" + idProd;
-            rs = stmt.executeQuery(sql);
-            while (rs.next()){
-                pedido.setNombreProducto(rs.getString("titulo"));
-            }
-            rs.close();
-
-            sql ="SELECT * FROM usuario WHERE id=" + idDestinatario;
-            rs = stmt.executeQuery(sql);
-            while (rs.next()){
-                pedido.setEmail(rs.getString("correo"));
-                pedido.setNombreComprador(rs.getString("nombre_real"));
-            }
-            rs.close();
-
-        }catch(SQLException se){
-            se.printStackTrace();
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            try{
-                if(stmt!=null)
-                    conn.close();
-            }catch(SQLException se){
-            }
-            try{
-                if(conn!=null)
-                    conn.close();
-            }catch(SQLException se){
-                se.printStackTrace();
-            }
-        }
-        return pedido;
     }
 
     private void SendEmail(Pedido pedido){
