@@ -6,10 +6,9 @@ import java.sql.*;
 
 public class DbConnection {
 
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace";
     static final String USER = "root";
-    static final String PASS = "malpica28";
+    static final String PASS = "rooturjc";
 
     public DbConnection(){ }
 
@@ -23,7 +22,6 @@ public class DbConnection {
         Pedido pedido = new Pedido();
 
         try{
-            //Class.forName(JDBC_DRIVER);
 
             System.out.println("Connecting to a selected database...");
             conn = DriverManager.getConnection(DB_URL, USER, PASS);

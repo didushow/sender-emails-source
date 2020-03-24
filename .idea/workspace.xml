@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf05a6d-679f-4dd8-b463-d4f6f894023e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +94,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585075347763">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1585075347763" />
     <state x="424" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584823474043">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
