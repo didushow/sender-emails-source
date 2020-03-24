@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf05a6d-679f-4dd8-b463-d4f6f894023e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/GeneradorRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/GeneradorRunnable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,26 +112,26 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="325" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1584976549561" />
-    <state width="1878" height="270" key="GridCell.Tab.0.bottom" timestamp="1585074825403">
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom" timestamp="1585075752507">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1585000814772" />
-    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585074825403" />
-    <state width="1878" height="270" key="GridCell.Tab.0.center" timestamp="1585074825397">
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752507" />
+    <state width="1878" height="270" key="GridCell.Tab.0.center" timestamp="1585075752505">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1585000814771" />
-    <state width="1878" height="270" key="GridCell.Tab.0.center/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585074825397" />
-    <state width="1878" height="270" key="GridCell.Tab.0.left" timestamp="1585074825396">
+    <state width="1878" height="270" key="GridCell.Tab.0.center/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752505" />
+    <state width="1878" height="270" key="GridCell.Tab.0.left" timestamp="1585075752501">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1585000814771" />
-    <state width="1878" height="270" key="GridCell.Tab.0.left/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585074825396" />
-    <state width="1878" height="270" key="GridCell.Tab.0.right" timestamp="1585074825401">
+    <state width="1878" height="270" key="GridCell.Tab.0.left/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752501" />
+    <state width="1878" height="270" key="GridCell.Tab.0.right" timestamp="1585075752506">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1585000814772" />
-    <state width="1878" height="270" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585074825401" />
+    <state width="1878" height="270" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752506" />
     <state x="551" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1585072755321">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>

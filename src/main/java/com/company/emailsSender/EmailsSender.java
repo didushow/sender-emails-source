@@ -9,15 +9,18 @@ import java.util.Properties;
 
 public class EmailsSender {
 
+    private static final String HOST_SMTP = "mail.smtp.host";
+    private static final String HOST_SMTP_GMAIL = "smtp.gmail.com";
+    private static final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
 
     public EmailsSender(){}
 
     public void SendEmail(Pedido pedido){
 
-        final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
+
         // Get a Properties object
         Properties props = System.getProperties();
-        props.setProperty("mail.smtp.host", "smtp.gmail.com");
+        props.setProperty(HOST_SMTP, HOST_SMTP_GMAIL);
         props.setProperty("mail.smtp.socketFactory.class", SSL_FACTORY);
         props.setProperty("mail.smtp.socketFactory.fallback", "false");
         props.setProperty("mail.smtp.port", "465");
