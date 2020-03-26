@@ -12,6 +12,19 @@ public class EmailsSender {
     private static final String HOST_SMTP = "mail.smtp.host";
     private static final String HOST_SMTP_GMAIL = "smtp.gmail.com";
     private static final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
+    private static final String SOCKET_FACTORY = "mail.smtp.socketFactory.class";
+    private static final String SOCKET_FACTORY_FALLBACK = "mail.smtp.socketFactory.fallback";
+    private static final String SOCKET_BOOLEAN = "false";
+    private static final String PORT_SMTP = "mail.smtp.socketFactory.fallback";
+    private static final String PORT_NUMBER = "465";
+    private static final String PORT_SOCKET = "mail.smtp.socketFactory.port";
+    private static final String AUTH_SMTP = "mail.smtp.auth";
+    private static final String AUTH_BOOLEAN = "true";
+    private static final String MAIL_STORE_PROTOCOL = "mail.store.protocol";
+    private static final String STORE_PROTOCOL = "pop3";
+    private static final String MAIL_TRANSPORT_PROTOCOL = "mail.transport.protocol";
+    private static final String TRANSPORT_PROTOCOL = "smtp";
+
 
     public EmailsSender(){}
 
@@ -21,13 +34,13 @@ public class EmailsSender {
         // Get a Properties object
         Properties props = System.getProperties();
         props.setProperty(HOST_SMTP, HOST_SMTP_GMAIL);
-        props.setProperty("mail.smtp.socketFactory.class", SSL_FACTORY);
-        props.setProperty("mail.smtp.socketFactory.fallback", "false");
-        props.setProperty("mail.smtp.port", "465");
-        props.setProperty("mail.smtp.socketFactory.port", "465");
-        props.put("mail.smtp.auth", "true");
-        props.put("mail.store.protocol", "pop3");
-        props.put("mail.transport.protocol", "smtp");
+        props.setProperty(SOCKET_FACTORY, SSL_FACTORY);
+        props.setProperty(SOCKET_FACTORY_FALLBACK, SOCKET_BOOLEAN);
+        props.setProperty(PORT_SMTP, PORT_NUMBER);
+        props.setProperty(PORT_SOCKET, PORT_NUMBER);
+        props.put(AUTH_SMTP, AUTH_BOOLEAN);
+        props.put(MAIL_STORE_PROTOCOL,STORE_PROTOCOL);
+        props.put(MAIL_TRANSPORT_PROTOCOL, TRANSPORT_PROTOCOL);
         final String username = "proyectomarketplacedad@gmail.com";//
         final String password = "urjc1234";
         try{
