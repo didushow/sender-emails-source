@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sender-emails-source:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf05a6d-679f-4dd8-b463-d4f6f894023e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dbConnection/DbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/emailsSender/EmailsSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +44,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.Sender">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -59,6 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sender" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../releases/artifacts/sender_emails_source_jar/sender-emails-source.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.5" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../releases/artifacts/sender_emails_source_jar/sender-emails-source.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.5" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.Sender" />
+      <item itemvalue="JAR Application.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,6 +106,7 @@
       <workItem from="1584975712918" duration="1905000" />
       <workItem from="1584985473306" duration="825000" />
       <workItem from="1585072738733" duration="1721000" />
+      <workItem from="1585475256336" duration="1788000" />
     </task>
     <servers />
   </component>
@@ -98,47 +131,51 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1585075347763" />
-    <state x="424" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584823474043">
+    <state x="424" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585478180768">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="424" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1584823474043" />
-    <state x="697" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584823437316">
+    <state x="424" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585478180768" />
+    <state x="697" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585477922702">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="697" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1584823437316" />
+    <state x="697" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585477922702" />
     <state x="2745" y="396" key="CommitChangelistDialog2" timestamp="1585244071779">
       <screen x="1920" y="124" width="1792" height="1097" />
     </state>
     <state x="325" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1584976549561" />
     <state x="2745" y="396" key="CommitChangelistDialog2/1920.124.1792.1097/0.23.1920.1057@1920.124.1792.1097" timestamp="1585244071779" />
-    <state width="1525" height="290" key="GridCell.Tab.0.bottom" timestamp="1585154181367">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1469" height="270" key="GridCell.Tab.0.bottom" timestamp="1585509322410">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1585000814772" />
-    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752507" />
+    <state width="1469" height="270" key="GridCell.Tab.0.bottom/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585509322410" />
     <state width="1525" height="290" key="GridCell.Tab.0.bottom/1920.23.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1585154181367" />
-    <state width="1525" height="290" key="GridCell.Tab.0.center" timestamp="1585154181366">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1469" height="270" key="GridCell.Tab.0.center" timestamp="1585509322409">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1585000814771" />
-    <state width="1878" height="270" key="GridCell.Tab.0.center/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752505" />
+    <state width="1469" height="270" key="GridCell.Tab.0.center/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585509322409" />
     <state width="1525" height="290" key="GridCell.Tab.0.center/1920.23.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1585154181366" />
-    <state width="1525" height="290" key="GridCell.Tab.0.left" timestamp="1585154181366">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1469" height="270" key="GridCell.Tab.0.left" timestamp="1585509322408">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1585000814771" />
-    <state width="1878" height="270" key="GridCell.Tab.0.left/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752501" />
+    <state width="1469" height="270" key="GridCell.Tab.0.left/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585509322408" />
     <state width="1525" height="290" key="GridCell.Tab.0.left/1920.23.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1585154181366" />
-    <state width="1525" height="290" key="GridCell.Tab.0.right" timestamp="1585154181367">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1469" height="270" key="GridCell.Tab.0.right" timestamp="1585509322409">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1585000814772" />
-    <state width="1878" height="270" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585075752506" />
+    <state width="1469" height="270" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585509322409" />
     <state width="1525" height="290" key="GridCell.Tab.0.right/1920.23.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1585154181367" />
-    <state x="551" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1585072755321">
+    <state x="448" y="105" key="SettingsEditor" timestamp="1585477969165">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="448" y="105" key="SettingsEditor/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585477969165" />
+    <state x="551" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1585477477774">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1584975728182" />
-    <state x="551" y="319" key="com.intellij.ide.util.TipDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585072755321" />
+    <state x="551" y="319" key="com.intellij.ide.util.TipDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1585477477774" />
   </component>
 </project>

@@ -6,8 +6,8 @@ import java.sql.*;
 
 public class DbConnection {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace";
-    private static final String USER = "root";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/db_marketplace_sec";
+    private static final String USER = "admin";
     private static final String PASS = "rooturjc";
 
     public DbConnection(){ }
